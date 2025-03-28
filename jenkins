@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = "sharath198/springboot-app-extapi"
+        DOCKER_IMAGE = "monisha579/springboot-app-extapi"
         K8S_DEPLOYMENT = "springboot-app"
         K8S_NAMESPACE = "default"
         DOCKER_USERNAME = "monisha579"
